@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TODO 编辑</title>
+    </head>
+    <body>
+        <form action="/todo/update" method="post">
+            <input type="text" name="id" value="{todo_id}" placeholder="请输入 id" hidden>
+            <br>
+            <input type="text" name="content" value="{todo_content}" placeholder="请输入 todo">
+            <br>
+            <button type="submit">提交修改</button>
+        </form>
+
+    </body>
+</html>
